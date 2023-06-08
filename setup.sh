@@ -4,8 +4,8 @@
 flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
 
 core-desktop-applications(){
-    OOBE-FP=$(cat ./flatpaks/oobe-flatpaks.txt)
-    for FLATPAK in $OOBE-FP; do
+    OOBE=$(cat ./flatpaks/oobe-flatpaks.txt)
+    for FLATPAK in $OOBE; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
@@ -19,35 +19,35 @@ tutanota(){
 
 entertainment(){
     ENTERTAINING-FP=$(cat ./flatpaks/entertainment-flatpaks.txt)
-    for FLATPAK in $ENTERTAINING-FP; do
+    for FLATPAK in $ENTERTAINING; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
 
 devtools(){
-    DEVTOOL-FP=$(cat ./flatpaks/devtool-flatpaks.txt)
-    for FLATPAK in $DEVTOOL-FP; do
+    DEVTOOL=$(cat ./flatpaks/devtool-flatpaks.txt)
+    for FLATPAK in $DEVTOOL; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
 
 office(){
-    OFFICE-FP=$(cat ./flatpaks/devtool-flatpaks.txt)
-    for FLATPAK in $OFFICE-FP; do
+    OFFICE=$(cat ./flatpaks/devtool-flatpaks.txt)
+    for FLATPAK in $OFFICE; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
 
 media-creation(){
-    MEDIA-FP=$(cat ./flatpaks/media-flatpaks.txt)
-    for FLATPAK in $MEDIA-FP; do
+    MEDIA=$(cat ./flatpaks/media-flatpaks.txt)
+    for FLATPAK in $MEDIA; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
 
 gaming(){
-    GAMING-FP=$(cat ./flatpaks/gaming.txt)
-    for FLATPAK in $GAMING-FP; do
+    GAMING=$(cat ./flatpaks/gaming-flatpaks.txt)
+    for FLATPAK in $GAMING; do
         flatpak install --user -y flathub $FLATPAK
     done
 }
