@@ -1,0 +1,4 @@
+com.visualstudio.code
+org.filezillaproject.Filezilla
+me.iepure.devtoolbox
+org.raspberrypi.rpi-imager

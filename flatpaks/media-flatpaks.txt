@@ -1,0 +1,2 @@
+org.inkscape.Inkscape
+com.github.finefindus.eyedropper

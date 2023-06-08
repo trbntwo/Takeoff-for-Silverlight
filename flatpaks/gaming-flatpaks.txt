@@ -1,0 +1,4 @@
+com.usebottles.bottles
+com.valvesoftware.Steam
+org.prismlauncher.PrismLauncher
+com.heroicgameslauncher.hgl

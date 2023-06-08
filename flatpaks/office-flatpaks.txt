@@ -1,0 +1,2 @@
+org.gnome.SimpleScan
+com.github.flxzt.rnote

@@ -1,0 +1,15 @@
+org.mozilla.firefox
+org.mozilla.Thunderbird
+org.gnome.Calendar
+org.gnome.Contacts
+org.gnome.Calculator
+org.gnome.clocks
+org.gnome.seahorse.Application
+org.gnome.Maps
+org.gnome.Evince
+org.gnome.Loupe
+io.github.celluloid_player.Celluloid
+com.nextcloud.desktopclient.nextcloud
+com.mattjakeman.ExtensionManager
+ca.desrt.dconf-editor
+com.github.GradienceTeam.Gradience
