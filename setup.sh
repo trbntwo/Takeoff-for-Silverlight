@@ -11,9 +11,9 @@ core-desktop-applications(){
 }
 
 tutanota(){
-    mkdir -p ~/-local/share/appimages
+    mkdir -p ~/.local/share/appimages
     curl -s -O https://mail.tutanota.com/desktop/tutanota-desktop-linux.AppImage
-    chmod ug+x tutanota-desktop-linux.AppImage
+    chmod u+x tutanota-desktop-linux.AppImage
     mv tutanota-desktop-linux.AppImage ~/.local/share/appimages
 }
 
